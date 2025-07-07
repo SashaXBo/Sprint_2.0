@@ -1,8 +1,8 @@
 package model;
 
 public abstract class Food implements Discountable {
-    private int amount;
-    private double price;
+    private final int amount;
+    private final double price;
     public boolean isVegetarian;
 
     protected Food(int amount, double price, boolean isVegetarian) {

@@ -2,7 +2,6 @@ import model.Apple;
 import model.Food;
 import model.Meat;
 import service.ShoppingCart;
-import model.constants.Colour;
 import static model.constants.Colour.GREEN;
 import static model.constants.Colour.RED;
 
