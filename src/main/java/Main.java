@@ -2,12 +2,15 @@ import model.Apple;
 import model.Food;
 import model.Meat;
 import service.ShoppingCart;
+import model.constants.Colour;
+import static model.constants.Colour.GREEN;
+import static model.constants.Colour.RED;
 
 public class Main {
     public static void main(String[] args) {
         Meat meat = new Meat(5, 100);
-        Apple redApples = new Apple(10, 50, "red");
-        Apple greenApples = new Apple(8, 60, "green");
+        Apple redApples = new Apple(10, 50, RED);
+        Apple greenApples = new Apple(8, 60, GREEN);
 
         Food[] products = {meat, redApples, greenApples};
 

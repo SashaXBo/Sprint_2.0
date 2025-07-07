@@ -1,6 +1,6 @@
 package model;
 
-public abstract class Food {
+public abstract class Food implements Discountable {
     private int amount;
     private double price;
     public boolean isVegetarian;
